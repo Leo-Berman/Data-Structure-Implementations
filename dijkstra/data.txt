@@ -1,0 +1,17 @@
+A,E 2,B 4
+B,F 3,C 6
+C,G 2,D 1
+D,H 4
+E,I 2,F 1
+F,J 1,G 2
+G,K 5,H 8
+H,L 9
+I,M 1,J 3
+J,N 2,K 4
+K,O 3,L 3
+L,P 1
+M,N 5
+N,O 8
+O,P 6
+P
+
