@@ -3,23 +3,23 @@
 
 # define a target for the application
 #
-all: test.exe
+all: nesteddict.exe
 
 # define a target to link the application
 #
-test.exe: test.o
-	g++ -g -lm test.o -o test.exe
+nesteddict.exe: nesteddict.o
+	g++ -g -lm nesteddict.o -o nesteddict.exe
 
 # define targets to compile the source code
 #
-test.o: test.cpp Makefile
-	g++ -g -c test.cpp -o test.o
+nesteddict.o: nesteddict.cpp Makefile
+	g++ -g -c nesteddict.cpp -o nesteddict.o
 
 
 # define a target to clean the directory
 #
 clean:
-	rm -f test.o test.exe
+	rm -f nesteddict.o nesteddict.exe
 
 #
 # end of file

@@ -3,23 +3,23 @@
 
 # define a target for the application
 #
-all: 2022fall.exe
+all: linkedlisttemplate.exe
 
 # define a target to link the application
 #
-2022fall.exe: 2022fall.o
-	g++ -g -lm 2022fall.o -o 2022fall.exe
+linkedlisttemplate.exe: linkedlisttemplate.o
+	g++ -g -lm linkedlisttemplate.o -o linkedlisttemplate.exe
 
 # define targets to compile the source code
 #
-2022fall.o: 2022fall.cpp Makefile
-	g++ -g -c 2022fall.cpp -o 2022fall.o
+linkedlisttemplate.o: linkedlisttemplate.cpp Makefile
+	g++ -g -c linkedlisttemplate -o linkedlisttemplate.o
 
 
 # define a target to clean the directory
 #
 clean:
-	rm -f 2022fall.o 2022fall.exe
+	rm -f linkedlisttemplate.o linkedlisttemplate.exe
 
 #
 # end of file
